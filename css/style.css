@@ -87,3 +87,44 @@ ul li {
 .footer p{
 padding-top: 10px;
 }
+/* Menu */
+.heading{
+	background-color: #4169e1;
+	width: 100%;
+	text-align: center;
+}
+ul,li{
+	list-style: none;
+	text-decoration: none;
+}
+.menu{
+	/* display: flex;
+	justify-content: space-around; */
+	margin: 0;
+    padding: 0;
+	display: inline-block; 
+	font-size: 0;
+}
+.menu li{
+	display: inline-block;
+	/* vertical-align: bottom; */
+	margin: 0;
+    padding: 0;
+	font-size: 16px;
+
+}
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu li.active{
+	background-color: white;
+    margin-bottom: 0;
+	/* padding-bottom: 6px; */
+}	
+.menu li.active a{
+	font-weight: bold;
+	color: black;
+}
